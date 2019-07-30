@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <div class="navbar">
+            <ul>
+                <li><a asp-action="Index" asp-controller="Home" asp-area="HR">HR</a></li>
+                <li><a asp-area="Deparment" asp-action="Index" asp-controller="Home">Deparment</a></li>
+                <li>PayrollSpecialist</li>
+
+            </ul>
+        </div>
+        @RenderBody()
+    </div>
+</body>
+</html>

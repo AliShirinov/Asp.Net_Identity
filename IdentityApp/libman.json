@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "destination": "wwwroot/js/",
+      "library": "jquery@3.4.1",
+      "files": [ "jquery.min.js" ]
+    },
+    {
+      "destination": "wwwroot/js/",
+      "library": "jquery-validate@1.19.1",
+      "files": [ "jquery.validate.min.js" ]
+    },
+    {
+      "destination": "wwwroot/js/",
+      "library": "jquery-validation-unobtrusive@3.2.11",
+      "files": ["jquery.validate.unobtrusive.min.js"]
+    }
+  ]
+}
